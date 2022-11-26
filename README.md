@@ -1,8 +1,11 @@
 # ITU_07322
 <p align="center">
-  <a href="#">
+<!--   <a href="#">
         <img src="https://img.shields.io/github/downloads/tairocruiz/itu_07322/total"
-            alt="Total Downloads"></a>
+            alt="Total Downloads"></a> -->
+  <a href="#">
+   <img src="https://img.shields.io/badge/Downloads-73-blue" alt="Downloads">
+  </a>
 </p>
 --
 This repo is for materials source for module ITU-07322 for IAA students year II ac-year 2022/2023.
