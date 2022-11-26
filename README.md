@@ -1,6 +1,6 @@
 # ITU_07322
 <p align="center">
-  <a href="https://circleci.com/gh/badges/daily-tests">
+  <a href="#">
         <img src="https://img.shields.io/github/downloads/tairocruiz/itu_07322/total"
             alt="Total Downloads"></a>
 </p>
