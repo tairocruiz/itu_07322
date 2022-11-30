@@ -10,7 +10,7 @@ class Box
         this.width = wd;
     }
 
-    public float calculateVolume(){
+    public float CalculateVolume(){
         return height*width*height;
     }
 }

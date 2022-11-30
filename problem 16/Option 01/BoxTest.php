@@ -5,7 +5,6 @@ class Box{
     private $height;
 
     public function __construct(float $ln, float $hg, float $wd){
-
         $this->length = $ln;
         $this->width = $wd;
         $this->height = $hg;
