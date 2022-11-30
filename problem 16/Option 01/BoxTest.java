@@ -5,13 +5,13 @@ class Box{
     private float height;
 
     public Box(float h, float w, float l) {
-        height = h;
-        width = w;
-        length = l;
+        this.height = h;
+        this.width = w;
+        this.length = l;
     }
 
     public float calculateVolume() {
-        return (height*width*length);
+        return (this.height * this.width * this.length);
     }
 }
 
