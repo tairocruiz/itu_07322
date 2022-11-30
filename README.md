@@ -5,7 +5,7 @@
         <img src="https://img.shields.io/github/downloads/tairocruiz/itu_07322/total"
             alt="Total Downloads"></a> -->
   <a href="#">
-   <img src="https://img.shields.io/badge/Downloads-73-blue" alt="Downloads">
+   <img src="https://img.shields.io/badge/Downloads-81-blue" alt="Downloads">
   </a>
 </p>
 --
