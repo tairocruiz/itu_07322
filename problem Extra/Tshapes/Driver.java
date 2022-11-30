@@ -66,12 +66,12 @@ public class Driver {
                             System.out.println(r1);
                             break;
 
-                    /*case 4:
+                    case 4:
                             System.out.println(pl1);
                             l1.move(dx,dy);
                             System.out.println("move coordinates");
                             System.out.println(pl1);
-                            break;*/
+                            break;
 
                     case 5:
                             System.out.println("program is exiting");

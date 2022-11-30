@@ -29,9 +29,9 @@ public class Rectangles extends Shape {
             return show();
     }
 
-    @Override
-    public String show() {
-        return null;
-    }
+//     @Override
+//     public String show() {
+//         return null;
+//     }
     
 }
