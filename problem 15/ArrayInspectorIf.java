@@ -4,6 +4,9 @@
  */ 
 
 public class ArrayInspectorIf {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
         float[] numbers = {10, 6, 70, 1240, 10, 60, 120, 80, 565};

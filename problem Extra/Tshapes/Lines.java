@@ -29,8 +29,4 @@ public class Lines extends Shape{
             return show();
     }
 
-    @Override
-    public String show() {
-        return null;
-    }
 }

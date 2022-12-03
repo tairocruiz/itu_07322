@@ -8,11 +8,12 @@ import java.util.Scanner;
 public class Arthmetic{
     public static void main(String[] args) {
         int a, b, c, sum, prod, avg, bigger;
-        Scanner put = new Scanner(System.in);
-        System.out.println("Enter the numbers :");
-        a = put.nextInt();
-        b = put.nextInt();
-        c = put.nextInt();
+        try (Scanner put = new Scanner(System.in)) {
+            System.out.println("Enter the numbers :");
+            a = put.nextInt();
+            b = put.nextInt();
+            c = put.nextInt();
+        }
         sum = a + b + c;
         avg = sum / 3;
         prod = a*b*c;

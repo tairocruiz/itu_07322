@@ -15,7 +15,7 @@ public class ArrayAlgo {
                 lowFlag = numbers[t]; 
                 break;
             }
-            for (int c = 0, d = 1; c < numbers.length; c++, d++){
+            for (int c = 0; c < numbers.length; c++){
                 upperFlag = (c == 0) ? numbers[c] : ((upperFlag < numbers[c]) ? numbers[c] : upperFlag);
                 lowFlag = (numbers[t] == 0)? 0 : ((lowFlag == 0) ? numbers[0] : ((lowFlag > numbers[c])? numbers[c] : lowFlag));
             }

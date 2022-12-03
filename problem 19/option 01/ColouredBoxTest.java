@@ -33,8 +33,8 @@ class ColouredBox extends Box {
         return colour;
     }
     
-    public String setColour(Box color){
-        this.colour = color;
+    public String setColour(String color){
+        return this.colour = color;
     }
     
     // extends a prototype from Box class

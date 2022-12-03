@@ -8,25 +8,22 @@ public class SumTryCatch {
   public static void main(String[] args) {
     int sum;
 
-    Scanner pt = new Scanner(System.in);
-    SumTryCatch otp = new SumTryCatch();
+    try (Scanner pt = new Scanner(System.in)) {
+      SumTryCatch otp = new SumTryCatch();
 
-    try {
-      otp.opr1 = pt.nextInt();
-      otp.opr2 = pt.nextInt();
-      if (otp.opr1 != 0 && otp.opr1 != 0) {
-        sum = otp.opr1 + otp.opr2;
-        System.out.println("sum: " + sum);
-      } else {
-        throw new Exception(
-          "Access denied - an input has to be a number greater to 0 atleast one operand!"
-        );
-      }
-    } catch (Exception e) {
-      if (InputMisMatchException e != null) {
+      try {
+        otp.opr1 = pt.nextInt();
+        otp.opr2 = pt.nextInt();
+        if (otp.opr1 != 0 && otp.opr1 != 0) {
+          sum = otp.opr1 + otp.opr2;
+          System.out.println("sum: " + sum);
+        } else {
+          throw new Exception(
+            "Access denied - an input has to be a number greater to 0 atleast one operand!"
+          );
+        }
+      } catch (Exception e) {
         System.out.println("Exception: class responsible is: " + e);
-      } else {
-        System.out.println("Access denied - an input has to be a number!");
       }
     }
   }

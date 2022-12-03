@@ -25,9 +25,5 @@ public class Circles extends Shape {
             return show();
     }
 
-    @Override
-    public String how() {
-        return null;
-    }
     
 }
