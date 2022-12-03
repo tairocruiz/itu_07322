@@ -5,9 +5,9 @@ class Box
     private float width;
 
     public BoxTest(float hg, float ln, float wd){
-        this.height = hg;
-        this.length = ln;
-        this.width = wd;
+        height = hg;
+        length = ln;
+        width = wd;
     }
 
     public float CalculateVolume(){
