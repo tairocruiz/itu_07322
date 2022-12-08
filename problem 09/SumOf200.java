@@ -1,16 +1,12 @@
-/**
- * @author T.cruiz.
- * @since  Nov `22.
- */ 
-
+/*
+ * Decompiled with CFR 0.152.
+ */
 public class SumOf200 {
-    public static void main(String[] args) {
-        int sum = 0;
-        
-        for(int d = 1; d <= 200; d++){
-            sum+=d;
+    public static void main(String[] stringArray) {
+        int n = 0;
+        for (int i = 1; i <= 200; ++i) {
+            n += i;
         }
-
-        System.out.print("The sum of first 200 counting integers is : " + sum);
+        System.out.print("The sum of first 200 counting integers is : " + n);
     }
- }
+}

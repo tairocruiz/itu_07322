@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import shapi.*;
-
 public class Driver {
                
         public static void main(String[] args) {
