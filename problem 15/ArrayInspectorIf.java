@@ -9,7 +9,7 @@ public class ArrayInspectorIf {
      */
     public static void main(String[] args) {
 
-        float[] numbers = {10, 6, 70, 1240, 10, 60, 120, 80, 565};
+        float[] numbers = {17,19,23,60,58,90};
         float lowFlag = 0, upperFlag = 0;
 
         for (int c = 0; c < numbers.length; c++){
@@ -17,21 +17,17 @@ public class ArrayInspectorIf {
                 lowFlag = numbers[c];
                 upperFlag = numbers[c];
             }else{
-                if (lowFlag < numbers[c]){ 
-                    lowFlag = lowFlag;
-                }else{
+                if (lowFlag > numbers[c]){ 
                     lowFlag = numbers[c];
                 }
 
                 if (upperFlag < numbers[c]){ 
                     upperFlag = numbers[c];
-                }else{
-                    upperFlag = upperFlag;
                 }
             }     
         }
         
-        System.out.println("upperFlag : " + upperFlag);
-        System.out.println("lowFlag : " + lowFlag);
+        System.out.println("The large is " + upperFlag);
+        System.out.println("The Small is " + lowFlag);
     }
 }

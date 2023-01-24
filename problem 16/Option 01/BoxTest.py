@@ -1,3 +1,4 @@
+#!python
 class Box:
     length: float
     height: float

@@ -31,8 +31,6 @@ public class ArrayAlgoIf {
                 }else {
                     if (upperFlag < numbers[c]){ 
                         upperFlag = numbers[c];
-                    }else{
-                        upperFlag = upperFlag;
                     }
                 }
             }

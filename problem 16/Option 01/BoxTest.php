@@ -3,7 +3,6 @@ class Box{
     private ?float $length;
     private ?float $width;
     private ?float $height;
-    public ?int $aman;
 
     public function __construct(float $ln, float $hg, float $wd){
         $this->length = $ln;

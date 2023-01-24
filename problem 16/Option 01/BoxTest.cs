@@ -4,7 +4,7 @@ class Box
     private float length;
     private float width;
 
-    public BoxTest(float hg, float ln, float wd){
+    public Box(float hg, float ln, float wd){
         height = hg;
         length = ln;
         width = wd;
