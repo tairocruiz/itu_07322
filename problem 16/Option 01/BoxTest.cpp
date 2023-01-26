@@ -12,10 +12,12 @@ class Box{
             height = h;
             width = w;
         }
-        float calculateVolume(){
-            return (width * height * length);
-        }
+        float calculateVolume();
 };
+
+Box::calculateVolume(){
+     return (width * height * length);
+}
 
 int main(){
     Box mid = Box(7, 8, 3);
