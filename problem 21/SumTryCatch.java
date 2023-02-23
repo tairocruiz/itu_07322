@@ -4,8 +4,9 @@ public class SumTryCatch {
 
   int opr1;
   int opr2;
+  
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     int sum;
 
     try (Scanner pt = new Scanner(System.in)) {
@@ -18,12 +19,15 @@ public class SumTryCatch {
           sum = otp.opr1 + otp.opr2;
           System.out.println("sum: " + sum);
         } else {
+          // Throwable tai = new Throwable();
           throw new Exception(
-            "Access denied - an input has to be a number greater to 0 atleast one operand!"
+            "Access denied - an input has to be a number greater to 0 atleast one operand!" 
           );
         }
-      } catch (Exception e) {
-        System.out.println("Exception: class responsible is: " + e);
+       
+      } catch (Exception tai) {
+        
+        System.out.println("Exception: class responsible is : " + tai.getMessage());
       }
     }
   }

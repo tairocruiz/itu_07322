@@ -20,13 +20,5 @@ Module BoxText
         Dim box1 As New Box(10, 20, 30)
         Dim volume1 As Double = box1.CalculateVolume()
         Console.WriteLine("Volume of box1: " & volume1)
-
-        Dim box2 As New Box(5, 10, 15)
-        Dim volume2 As Double = box2.CalculateVolume()
-        Console.WriteLine("Volume of box2: " & volume2)
-
-        Dim box3 As New Box(3, 6, 9)
-        Dim volume3 As Double = box3.CalculateVolume()
-        Console.WriteLine("Volume of box3: " & volume3)
     End Sub
 End Module
