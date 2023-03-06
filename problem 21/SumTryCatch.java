@@ -9,6 +9,7 @@ public class SumTryCatch {
   public static void main(String[] args) throws Exception {
     int sum;
 
+    
     try (Scanner pt = new Scanner(System.in)) {
       SumTryCatch otp = new SumTryCatch();
 

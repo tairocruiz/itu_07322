@@ -13,6 +13,7 @@ abstract class Box{
         height = h;
         width = w;
         length = l;
+        
     }
 
     // an abstract method can be defined to its 1st successor classes || it is like a prototype

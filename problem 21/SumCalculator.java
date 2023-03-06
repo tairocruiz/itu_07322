@@ -11,6 +11,7 @@ public class SumCalculator {
                 System.out.print("Enter first integer: ");
                 num1 = Integer.parseInt(cin.nextLine());
 
+                
                 System.out.print("Enter second integer: ");
                 num2 = Integer.parseInt(cin.nextLine());
 
